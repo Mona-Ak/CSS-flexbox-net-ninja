@@ -3,19 +3,18 @@ body{
 }
 .wrapper{
     width: 100%;    
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .flex-container{
     display: flex;
     background: #fff;
-    flex-wrap: wrap;
+    flex:1;
 }
 
 .box{
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    flex-basis: 500px;
 }
 .one{
     background: red;
@@ -35,3 +34,10 @@ body{
 /* The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items. */
 
 /* The flex-wrap property specifies whether the flex items should wrap or not. */
+
+/* The flex-basis property specifies the initial length of a flex item. the difference between min-width and flex-basis is that flex-basis will shrink when a page getting smaller */
+
+/* flex: 1 0 200px 
+    flex: flex-grow flex-shrink flex-basis
+    this how we write in one line  
+*/
