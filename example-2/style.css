@@ -34,6 +34,9 @@ nav a:hover{
 
 /* ocial menu base styles */
 
+a.tw{
+    background-image: ;
+}
 
 
 
@@ -47,6 +50,11 @@ nav a:hover{
 
     nav li{
         flex: 1 1 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
     }
 
     /* end media 768 */
