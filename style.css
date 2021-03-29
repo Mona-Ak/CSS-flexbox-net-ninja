@@ -27,3 +27,5 @@ body{
     background: green;
     flex-grow: 1;
 }
+
+/* The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items. */
