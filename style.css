@@ -13,19 +13,21 @@ body{
 
 .box{
     height: 100px;
-    min-width: 100px;
+    width: 320px;
 }
 .one{
     background: red;
-    flex-grow: 2;
+    flex-shrink: 4;
 }
 .two{
     background: blue;
-    flex-grow: 3;
+    flex-shrink: 5;
 }
 .three{
     background: green;
-    flex-grow: 1;
+    flex-shrink: 6;
 }
 
 /* The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items. */
+
+/* The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items. */
