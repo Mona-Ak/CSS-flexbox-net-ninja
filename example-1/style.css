@@ -26,6 +26,7 @@ nav a{
     color: #fff;
     display: block;
     padding: 10px;
+    background-color: #777;
 }
 
 nav a:hover{
@@ -39,6 +40,7 @@ nav a:hover{
 
     nav ul{
         display: flex;
+        justify-content:flex-start ;
     }
 
     nav li{
