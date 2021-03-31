@@ -9,12 +9,15 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
-    flex:1;
+    flex-wrap: wrap;
+    flex-flow:column;
+    justify-content: flex-start;
+    height: 800px;
 }
 
 .box{
     height: 100px;
-    flex-basis: 500px;
+    flex: 0 0 100px;
 }
 .one{
     background: red;
@@ -41,3 +44,9 @@ body{
     flex: flex-grow flex-shrink flex-basis
     this how we write in one line  
 */
+
+/* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties. */
+
+
+/* The justify-content property is used to align the flex items: */
+
