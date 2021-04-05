@@ -1,4 +1,4 @@
-body{
+/* body{
     background: #eee;
 }
 .wrapper{
@@ -32,7 +32,7 @@ body{
 .three{
     background: green;
     
-}
+} */
 
 /* The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items. */
 
@@ -51,4 +51,32 @@ body{
 
 
 /* The justify-content property is used to align the flex items: */
+/* ________________________________________________ */
 
+body{
+    background: #eee;
+    color: #333;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+}
+
+#blocks{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
+}
+
+.one{order: 0;}
+.two{order: 0;}
+.three{order: 0;}
+.four{order: 0;}
